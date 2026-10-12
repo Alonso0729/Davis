@@ -149,10 +149,10 @@ const ruleProviders = {
     "url": "https://fastly.jsdelivr.net/gh/xiaolin-007/clash@main/rule/YouTube.txt",
     "path": "./ruleset/xiaolin-007/YouTube.yaml"
   },
-  "Money": {
+  "Crypto": {
     ...ruleProviderCommon,
     "behavior": "classical",
-    "url": "https://cdn.jsdelivr.net/gh/busymilk/v2fly-domain-list-community_rule_set@main/clash-rules-generated/category-cryptocurrency.txt"
+    "url": "https://cdn.jsdelivr.net/gh/busymilk/v2fly-domain-list-community_rule_set@main/clash-rules-generated/category-cryptocurrency.txt",
 	"path": "./ruleset/category-cryptocurrency.rules"
   },
   "Netflix": {
@@ -291,6 +291,7 @@ const rules = [
   "RULE-SET,icloud,iCloud服务",
   "RULE-SET,apple,苹果服务",
   "RULE-SET,YouTube,YouTube",
+  "RULE-SET,Crypto,Crypto",
   "RULE-SET,Netflix,Netflix",
   "RULE-SET,bahamut,动画疯",
   "RULE-SET,Spotify,Spotify",
@@ -361,7 +362,7 @@ function main(config) {
     },
 	{
       ...groupBaseOption,
-      "name": "Money",
+      "name": "Crypto",
       "type": "select",
       "proxies": ["节点选择","全局直连"],
       "include-all": true,

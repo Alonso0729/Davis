@@ -152,7 +152,8 @@ const ruleProviders = {
   "Money": {
     ...ruleProviderCommon,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/Alonso0729/Davis/refs/heads/main/Cat/Money.txt"
+    "url": "https://cdn.jsdelivr.net/gh/busymilk/v2fly-domain-list-community_rule_set@main/clash-rules-generated/category-cryptocurrency.txt"
+	"path": "./ruleset/category-cryptocurrency.rules"
   },
   "Netflix": {
     ...ruleProviderCommon,

@@ -152,8 +152,7 @@ const ruleProviders = {
   "Money": {
     ...ruleProviderCommon,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/Alonso0729/Davis/refs/heads/main/Cat/Money.txt",
-    "path": "./ruleset/xiaolin-007/YouTube.yaml"
+    "url": "https://raw.githubusercontent.com/Alonso0729/Davis/refs/heads/main/Cat/Money.txt"
   },
   "Netflix": {
     ...ruleProviderCommon,

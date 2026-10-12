@@ -155,6 +155,12 @@ const ruleProviders = {
     "url": "https://cdn.jsdelivr.net/gh/busymilk/v2fly-domain-list-community_rule_set@main/clash-rules-generated/category-cryptocurrency.txt",
 	"path": "./ruleset/category-cryptocurrency.rules"
   },
+  "Supercell": {
+    ...ruleProviderCommon,
+    "behavior": "classical",
+    "url": "https://cdn.jsdelivr.net/gh/busymilk/v2fly-domain-list-community_rule_set@main/clash-rules-generated/supercell.txt",
+	"path": "./ruleset/supercell.rules"
+  },
   "Netflix": {
     ...ruleProviderCommon,
     "behavior": "classical",
@@ -292,6 +298,7 @@ const rules = [
   "RULE-SET,apple,苹果服务",
   "RULE-SET,YouTube,YouTube",
   "RULE-SET,Crypto,Crypto",
+  "RULE-SET,Supercell,Supercell",
   "RULE-SET,Netflix,Netflix",
   "RULE-SET,bahamut,动画疯",
   "RULE-SET,Spotify,Spotify",
@@ -363,6 +370,13 @@ function main(config) {
 	{
       ...groupBaseOption,
       "name": "Crypto",
+      "type": "select",
+      "proxies": ["节点选择","全局直连"],
+      "include-all": true,
+    },
+	{
+      ...groupBaseOption,
+      "name": "Supercell",
       "type": "select",
       "proxies": ["节点选择","全局直连"],
       "include-all": true,

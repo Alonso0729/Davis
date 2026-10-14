@@ -236,6 +236,8 @@ const rules = [
   "DOMAIN-SUFFIX,pglstatp-toutiao.com,全局直连",
   "DOMAIN-SUFFIX,ctobsnssdk.com,全局直连",
   "DOMAIN-SUFFIX,romielf.com,全局直连",
+  "DOMAIN-SUFFIX,windowsupdate.com,全局直连",
+  "DOMAIN-SUFFIX,flash.homes,全局直连",
   "DOMAIN-KEYWORD,wechat,全局直连",
   "DOMAIN-KEYWORD,weixin,全局直连",
   "DOMAIN-KEYWORD,microsoft,全局直连",
@@ -282,6 +284,7 @@ const rules = [
   "DOMAIN-KEYWORD,pglstatp,全局直连",
   "DOMAIN-KEYWORD,ctobsnssdk,全局直连",
   "DOMAIN-KEYWORD,romielf,全局直连",
+  "DOMAIN-KEYWORD,windowsupdate,全局直连",
   // 自定义规则
   "DOMAIN-SUFFIX,google.com,谷歌服务", // Google
   "DOMAIN-SUFFIX,googleapis.cn,谷歌服务", // Google服务
